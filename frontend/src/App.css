@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  
+}
+
+/* addtask */
+
+/* 
+.taskname {
+  margin: 20px;
+}
+
+.tasks {
+  border: none;
+  border-radius: 1px;
+  padding: 10px;
+  width: fit-content;
+  background-color: var(--tritary);
+  border: 1px solid grey;
+}
+
+#sdate,
+#edate {
+  width: 300px;
+  margin: 22px;
+}
+
+.enddate {
+  margin: 20px;
+
+}
+
+.labels {
+  display: flex;
+  justify-content: space-around;
+}
+
+.priority {
+  margin: 20px;
+
+}
+
+.add {
+  margin-top: 20px;
+  text-align: end;
+}
+
+.orange {
+  background-color: var(--fourtiry);
+  color: #fff;
+  border: none;
+}
+
+.headings {
+  text-align: center;
+  color: #252525;
+}
+
+
+
+/* search box */
+/* .searchBox {
+  padding: 10px;
+  margin: auto;
+  border: 1px solid grey;
+  width: fit-content;
+  text-align: center;
+}
+
+.searchBox>h1 {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #252525;
+}
+
+.dates {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+
+.dateandtime {
+  display: flex;
+  justify-content: center;
+} */
+
+/* table */
+
+/* 
+.tasktable {
+  margin: 15px;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid grey;
+  height: 60px;
+}
+th{
+  border: 1px solid grey;
+  color: black;
+}
+.tdetails {
+  margin-top: 20px;
+  padding: 4px;
+  border: 1px #252525 solid;
+  border-radius: 4px;
+}
+
+.tdetails tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+.tdetails th {
+  color: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: var(--primary);
+} */ 

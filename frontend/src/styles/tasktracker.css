@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+}
+/* .main{
+    display: flex;
+    justify-content: space-evenly;
+} */
+.Add_Task{
+    border: 1px solid transparent;
+    width: 600px;
+    height:300px;
+    background-color: whitesmoke;
+    margin-left: 460px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 5px solid black;
+    border-bottom-left-radius: 25px;
+
+    
+}
+.Add button{
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 4px 10px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.Button_Tag button{
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 4px 10px;
+    font-size: 15px;
+    border-radius: 3px; 
+}
+.Next_Pre button{
+    margin-top: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    font-size: 15px;
+    border-radius: 3px; 
+}
+.but button{
+    border: none;  
+    background-color: whitesmoke;
+    color: black;
+    padding: 4px 10px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+.Add_Task fieldset{
+    position: relative;
+    left: 6%;
+    top: 9px;
+}
+.Filter_Task fieldset{
+    position: relative;
+    left: 6%;
+    top: 9px;
+}
+.Filter_Task{
+    border: 1px solid transparent;
+    width: 600px;
+    height:300px;
+    background-color: whitesmoke;
+    /* margin-left: 652px; */
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 5px solid black;
+    border-bottom-left-radius: 25px;
+}
+
+
+.search input{
+    /* border: none; */
+    width: 575px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid transparent;
+    background-color: transparent;
+    text-align: start;
+    background-color: black;
+    color: white;
+}
+
+.status input{
+    width: 29px;
+    height: 20px;
+    
+}
+.status label{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.Date_Time label{
+    font-size: 22px;
+    margin-left: 15px;
+}
+.Date_Time input{
+    width: 255px;
+    height: 25px;
+}
